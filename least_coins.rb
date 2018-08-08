@@ -7,10 +7,10 @@ coin_value = {
 }
   until cents == 0
     if cents >= 25
-    cents = cents - 25
-    coin_value["Quarter"] += 1
+      cents = cents - 25
+      coin_value["Quarter"] += 1
     elsif cents >= 10
-      cents - 10
+      cents = cents - 10
       coin_value["Dime"] += 1
     elsif cents >= 5
       cents - 5

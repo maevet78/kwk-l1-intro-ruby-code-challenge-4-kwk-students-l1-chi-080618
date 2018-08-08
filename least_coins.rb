@@ -5,9 +5,9 @@ coin_value = {
   "Nickle" => 0,
   "Penny" => 0
 }
-until cents == 0
+  until cents == 0
     if cents >= 25
-      cents - 25
+    cents = cents - 25
       coin_value["Quarter"] += 1
     elsif cents >= 10
       cents - 10

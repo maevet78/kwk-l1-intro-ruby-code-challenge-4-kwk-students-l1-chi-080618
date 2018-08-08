@@ -18,7 +18,8 @@ coin_value = {
     else cents >= 1
       cents = cents - 1
       coin_value["Penny"] += 1
-    end   
+    end 
+  end 
  puts coin_value
 end
 end

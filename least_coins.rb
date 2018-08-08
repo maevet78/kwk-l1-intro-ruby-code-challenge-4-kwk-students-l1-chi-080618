@@ -13,10 +13,10 @@ coin_value = {
       cents = cents - 10
       coin_value["Dime"] += 1
     elsif cents >= 5
-      cents - 5
+      cents = cents - 5
       coin_value["Nickle"] += 1
     else cents >= 1
-      cents - 1
+      cents = cents - 1
       coin_value["Penny"] += 1
     end   
  puts coin_value

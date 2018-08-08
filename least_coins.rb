@@ -1,5 +1,3 @@
-
-
 def least_coins(cents)
 coin_value = {
   "Quarter" => 0,
